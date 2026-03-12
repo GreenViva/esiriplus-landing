@@ -26,9 +26,11 @@ export default function Hero({ locale = "en" }: HeroProps) {
           {/* Text content */}
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-teal-light rounded-full mb-6">
-              <span className="w-2 h-2 bg-brand-teal rounded-full animate-pulse" />
+              <svg className="w-4 h-4 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+              </svg>
               <span className="text-xs font-semibold text-brand-teal tracking-wide uppercase">
-                Telemedicine Platform
+                100% Anonymous Telemedicine
               </span>
             </div>
 
@@ -157,12 +159,12 @@ export default function Hero({ locale = "en" }: HeroProps) {
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 bg-brand-teal-light rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
                     </svg>
                   </div>
                   <div>
-                    <p className="text-[10px] font-semibold text-gray-900">Video Call</p>
-                    <p className="text-[8px] text-gray-500">HD Quality</p>
+                    <p className="text-[10px] font-semibold text-gray-900">Anonymous</p>
+                    <p className="text-[8px] text-gray-500">No ID Required</p>
                   </div>
                 </div>
               </div>

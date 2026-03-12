@@ -11,38 +11,38 @@ const translations = {
     "nav.download": "Download App",
 
     // Hero
-    "hero.title": "Healthcare Consultation, Anywhere in Tanzania.",
+    "hero.title": "See a Doctor. Stay Anonymous. No Identity Required.",
     "hero.subtitle":
-      "Connect with verified doctors through secure messaging, voice, or video consultations — from the comfort of your home.",
+      "eSiri is the only telemedicine platform where you get real medical consultations without sharing your name, face, or any personal identity. Just the care you need — completely stigma-free.",
     "hero.cta.download": "Download App",
     "hero.cta.learn": "Learn More",
 
     // About
-    "about.tag": "Our Mission",
-    "about.title": "Bridging the Gap in Healthcare Access",
+    "about.tag": "What Makes Us Different",
+    "about.title": "The Only Truly Anonymous Telemedicine Platform",
     "about.description":
-      "eSiri is a digital health platform built to make quality healthcare accessible to every Tanzanian. We connect patients with verified, licensed doctors for real-time consultations — eliminating distance, wait times, and barriers to care.",
-    "about.card1.title": "Accessible Healthcare",
+      "Other telemedicine apps ask for your name, photo, and ID before you can even talk to a doctor. eSiri doesn't. We built a platform where complete anonymity is the default — so you can seek help for any condition without fear, stigma, or judgment.",
+    "about.card1.title": "Zero Identity Required",
     "about.card1.text":
-      "Quality medical consultations available to anyone with a smartphone, regardless of location.",
-    "about.card2.title": "Verified Doctors",
+      "No name, no photo, no national ID. Create an account and start a consultation without revealing who you are — ever.",
+    "about.card2.title": "Stigma-Free Care",
     "about.card2.text":
-      "Every doctor on eSiri is licensed and verified, ensuring you receive professional medical advice.",
-    "about.card3.title": "Digital Innovation",
+      "Whether it's mental health, sexual health, or any sensitive condition — get professional help without anyone knowing it's you.",
+    "about.card3.title": "Verified Doctors, Anonymous Patients",
     "about.card3.text":
-      "Leveraging technology to modernize healthcare delivery across Tanzania and East Africa.",
+      "Every doctor is licensed and verified. But your identity? That stays completely private throughout the entire consultation.",
 
     // Features
     "features.tag": "Platform Features",
-    "features.title": "Everything You Need for Remote Healthcare",
+    "features.title": "Full Medical Consultations, Zero Identity Exposure",
     "features.subtitle":
-      "eSiri provides a complete telemedicine experience for patients and doctors alike.",
-    "features.consultation.title": "Instant Doctor Consultation",
+      "Every feature is designed with your anonymity in mind. Get the same quality care as an in-person visit — without anyone knowing it's you.",
+    "features.consultation.title": "Anonymous Consultations",
     "features.consultation.text":
-      "Request a consultation and connect with a qualified doctor within minutes.",
-    "features.messaging.title": "Secure Messaging",
+      "Connect with a qualified doctor within minutes — no name, no photo, no identity check required.",
+    "features.messaging.title": "Private Encrypted Messaging",
     "features.messaging.text":
-      "Communicate safely with your doctor through end-to-end encrypted chat.",
+      "End-to-end encrypted chat that can never be traced back to your real identity.",
     "features.video.title": "Audio & Video Calls",
     "features.video.text":
       "Face-to-face remote consultations with crystal-clear audio and video quality.",
@@ -52,25 +52,25 @@ const translations = {
     "features.ratings.title": "Doctor Ratings",
     "features.ratings.text":
       "Rate your consultations to help maintain high-quality healthcare standards.",
-    "features.records.title": "Medical Records",
+    "features.records.title": "Private Medical Records",
     "features.records.text":
-      "Your consultation history and prescriptions, securely stored and always accessible.",
+      "Your consultation history and prescriptions, securely stored under your anonymous profile — accessible only to you.",
 
     // Platform — for both patients and doctors
     "platform.tag": "Built for Everyone",
-    "platform.title": "A Platform for Patients and Doctors",
+    "platform.title": "Anonymous for Patients. Professional for Doctors.",
     "platform.subtitle":
-      "eSiri serves both sides of healthcare — giving patients anonymous, stigma-free access to care, and giving doctors a modern way to grow their practice.",
+      "eSiri is the bridge between patients who need privacy and doctors who want to help. Patients stay completely anonymous. Doctors are fully verified. Everyone gets what they need.",
     "platform.patients.heading": "For Patients",
-    "platform.patient1.title": "100% Anonymous Consultations",
+    "platform.patient1.title": "100% Anonymous — From Start to Finish",
     "platform.patient1.text":
-      "Seek medical advice without revealing your identity. No name, no photo — just the care you need, free from stigma or judgment.",
-    "platform.patient2.title": "Instant Access, Anytime",
+      "Unlike other telemedicine apps, eSiri never asks for your real name, photo, or ID. Your entire consultation — from booking to prescription — happens without revealing who you are.",
+    "platform.patient2.title": "No Stigma, No Judgment",
     "platform.patient2.text":
-      "Connect with a verified doctor in minutes — no travel, no waiting rooms, no embarrassment.",
+      "Mental health, sexual health, embarrassing symptoms — whatever it is, get professional medical advice without fear of anyone finding out.",
     "platform.patient3.title": "Your Data, Your Control",
     "platform.patient3.text":
-      "End-to-end encrypted conversations. You decide what to share and can delete your records at any time.",
+      "End-to-end encrypted conversations tied to your anonymous profile. You decide what to share and can delete everything at any time.",
     "platform.doctors.heading": "For Doctors",
     "platform.doctor1.title": "Expand Your Patient Reach",
     "platform.doctor1.text":
@@ -84,27 +84,27 @@ const translations = {
 
     // App Download
     "download.tag": "Get Started",
-    "download.title": "Download eSiri Today",
+    "download.title": "Your Anonymous Doctor Is One Download Away",
     "download.subtitle":
-      "Available on Android. Start your first consultation in minutes.",
+      "No name required. No ID needed. Download eSiri and start a private consultation in minutes.",
     "download.playstore": "Get it on Google Play",
     "download.coming": "iOS Coming Soon",
     "download.scan": "Scan to download",
 
     // Trust
     "trust.tag": "Why Trust eSiri",
-    "trust.title": "Your Health, Our Priority",
+    "trust.title": "Anonymous Doesn't Mean Unsafe",
     "trust.subtitle":
-      "We take every measure to ensure your healthcare experience is safe, private, and professional.",
+      "Your identity stays hidden, but your safety never does. Here's how we ensure quality care while protecting your anonymity.",
     "trust.verification.title": "Doctor Verification",
     "trust.verification.text":
       "Every doctor undergoes license verification and credential checks before joining the platform.",
     "trust.encryption.title": "End-to-End Encryption",
     "trust.encryption.text":
       "All communications between patients and doctors are encrypted and secure.",
-    "trust.privacy.title": "Data Privacy",
+    "trust.privacy.title": "True Anonymity",
     "trust.privacy.text":
-      "Your medical data is protected with industry-standard security measures and never shared without consent.",
+      "We don't collect your real name, photo, or government ID. Your medical data is protected and never linked to your real-world identity.",
     "trust.standards.title": "Professional Standards",
     "trust.standards.text":
       "We maintain strict quality standards with regular audits and patient feedback systems.",
@@ -134,18 +134,18 @@ const translations = {
 
     // FAQ
     "faq.title": "Frequently Asked Questions",
-    "faq.q1": "How do I start a consultation?",
+    "faq.q1": "How anonymous is eSiri really?",
     "faq.a1":
-      "Download the eSiri app, create an account, and browse available doctors. Select a doctor, choose your consultation type (chat, audio, or video), and you're connected.",
+      "Completely anonymous. You don't need to provide your real name, photo, or any government ID to use eSiri. You create a private profile, choose a doctor, and start your consultation — all without revealing your identity. Doctors see only what you choose to share.",
     "faq.q2": "Are the doctors verified?",
     "faq.a2":
       "Yes. Every doctor on eSiri undergoes a thorough verification process including license validation, credential checks, and identity verification before they can accept consultations.",
     "faq.q3": "How much does a consultation cost?",
     "faq.a3":
       "Consultation fees vary by doctor and service tier. You can see the exact cost before booking. We offer affordable rates to make healthcare accessible to everyone.",
-    "faq.q4": "Is my data secure?",
+    "faq.q4": "Is my identity truly protected?",
     "faq.a4":
-      "Absolutely. All communications are encrypted end-to-end. Your medical records are stored securely and are only accessible to you and your consulting doctor.",
+      "Yes. We never collect your real name, photo, or national ID. All communications are encrypted end-to-end and tied to your anonymous profile. Even eSiri staff cannot see who you are.",
     "faq.q5": "Can I get prescriptions through eSiri?",
     "faq.a5":
       "Yes. Doctors can issue digital prescriptions during your consultation, which you can take to any pharmacy.",
@@ -155,7 +155,7 @@ const translations = {
 
     // Footer
     "footer.description":
-      "Connecting patients with verified doctors for accessible, secure, and professional healthcare consultations across Tanzania.",
+      "Tanzania's first fully anonymous telemedicine platform. See a real doctor without sharing your identity.",
     "footer.product": "Product",
     "footer.company": "Company",
     "footer.legal": "Legal",
@@ -219,38 +219,38 @@ const translations = {
     "nav.download": "Pakua App",
 
     // Hero
-    "hero.title": "Huduma za Afya, Popote Tanzania.",
+    "hero.title": "Ona Daktari. Baki Bila Kujulikana. Hakuna Utambulisho Unaohitajika.",
     "hero.subtitle":
-      "Ungana na madaktari waliothibitishwa kupitia ujumbe, simu, au video — kutoka nyumbani kwako.",
+      "eSiri ndiyo jukwaa pekee la telemedicine ambapo unapata mashauriano halisi ya kimatibabu bila kushiriki jina lako, uso, au utambulisho wowote. Huduma unayohitaji tu — bila aibu kabisa.",
     "hero.cta.download": "Pakua App",
     "hero.cta.learn": "Jifunze Zaidi",
 
     // About
-    "about.tag": "Dhamira Yetu",
-    "about.title": "Kuunganisha Pengo la Huduma za Afya",
+    "about.tag": "Kinachotutofautisha",
+    "about.title": "Jukwaa Pekee la Telemedicine Lisilo na Utambulisho",
     "about.description":
-      "eSiri ni jukwaa la afya ya dijitali lililotengenezwa kufanya huduma bora za afya kupatikana kwa kila Mtanzania. Tunaunganisha wagonjwa na madaktari waliothibitishwa kwa mashauriano ya wakati halisi.",
-    "about.card1.title": "Huduma za Afya Zinazofikiwa",
+      "Programu nyingine za telemedicine zinakuuliza jina lako, picha, na kitambulisho kabla hujazungumza na daktari. eSiri haifanyi hivyo. Tulijenga jukwaa ambapo kutokuwa na utambulisho ni chaguo-msingi — ili uweze kutafuta msaada kwa hali yoyote bila hofu, aibu, au hukumu.",
+    "about.card1.title": "Hakuna Utambulisho Unaohitajika",
     "about.card1.text":
-      "Mashauriano ya kimatibabu yanapatikana kwa mtu yeyote mwenye simu mahiri.",
-    "about.card2.title": "Madaktari Waliothibitishwa",
+      "Hakuna jina, hakuna picha, hakuna kitambulisho cha taifa. Fungua akaunti na anza mashauriano bila kufichua wewe ni nani — kamwe.",
+    "about.card2.title": "Huduma Bila Aibu",
     "about.card2.text":
-      "Kila daktari kwenye eSiri ana leseni na amethibitishwa.",
-    "about.card3.title": "Uvumbuzi wa Dijitali",
+      "Iwe ni afya ya akili, afya ya ngono, au dalili za aibu — pata msaada wa kitaalamu bila mtu yeyote kujua ni wewe.",
+    "about.card3.title": "Madaktari Waliothibitishwa, Wagonjwa Wasiojulikana",
     "about.card3.text":
-      "Kutumia teknolojia kuboresha utoaji wa huduma za afya Tanzania.",
+      "Kila daktari ana leseni na amethibitishwa. Lakini utambulisho wako? Unabaki faragha kabisa wakati wote wa mashauriano.",
 
     // Features
     "features.tag": "Huduma za Jukwaa",
-    "features.title": "Kila Unachohitaji kwa Huduma za Afya",
+    "features.title": "Mashauriano Kamili ya Kimatibabu, Bila Kufichua Utambulisho",
     "features.subtitle":
-      "eSiri inatoa uzoefu kamili wa telemedicine kwa wagonjwa na madaktari.",
-    "features.consultation.title": "Mashauriano ya Haraka",
+      "Kila huduma imeundwa kwa kuzingatia faragha yako. Pata huduma sawa na ile ya ana kwa ana — bila mtu yeyote kujua ni wewe.",
+    "features.consultation.title": "Mashauriano ya Siri",
     "features.consultation.text":
-      "Omba mashauriano na uunganishwe na daktari ndani ya dakika.",
-    "features.messaging.title": "Ujumbe Salama",
+      "Ungana na daktari aliyethibitishwa ndani ya dakika — hakuna jina, hakuna picha, hakuna uthibitishaji wa utambulisho.",
+    "features.messaging.title": "Ujumbe wa Faragha Uliosimbwa",
     "features.messaging.text":
-      "Wasiliana kwa usalama na daktari wako kupitia mazungumzo yaliyosimbwa.",
+      "Mazungumzo yaliyosimbwa mwisho-hadi-mwisho ambayo hayawezi kufuatiliwa hadi utambulisho wako halisi.",
     "features.video.title": "Simu za Sauti na Video",
     "features.video.text":
       "Mashauriano ya ana kwa ana ya mbali na ubora wa sauti na video.",
@@ -260,25 +260,25 @@ const translations = {
     "features.ratings.title": "Ukadiriaji wa Madaktari",
     "features.ratings.text":
       "Kadiria mashauriano yako kusaidia kudumisha viwango vya juu.",
-    "features.records.title": "Rekodi za Kimatibabu",
+    "features.records.title": "Rekodi za Kimatibabu za Faragha",
     "features.records.text":
-      "Historia yako ya mashauriano na maagizo, yamehifadhiwa kwa usalama.",
+      "Historia yako ya mashauriano na maagizo, yamehifadhiwa kwa usalama chini ya wasifu wako usiojulikana — yanapatikana kwako tu.",
 
     // Platform — for both patients and doctors
     "platform.tag": "Imejengwa kwa Wote",
-    "platform.title": "Jukwaa kwa Wagonjwa na Madaktari",
+    "platform.title": "Faragha kwa Wagonjwa. Utaalamu kwa Madaktari.",
     "platform.subtitle":
-      "eSiri inahudumia pande zote za afya — kuwapa wagonjwa ufikiaji wa siri, bila aibu, na kuwapa madaktari njia ya kisasa ya kukuza mazoezi yao.",
+      "eSiri ni daraja kati ya wagonjwa wanaohitaji faragha na madaktari wanaotaka kusaidia. Wagonjwa wanabaki bila kujulikana kabisa. Madaktari wamethibitishwa kikamilifu. Kila mtu anapata anachohitaji.",
     "platform.patients.heading": "Kwa Wagonjwa",
-    "platform.patient1.title": "Mashauriano ya Siri 100%",
+    "platform.patient1.title": "Siri 100% — Kuanzia Mwanzo hadi Mwisho",
     "platform.patient1.text":
-      "Tafuta ushauri wa kimatibabu bila kufichua utambulisho wako. Hakuna jina, hakuna picha — huduma unayohitaji tu, bila aibu.",
-    "platform.patient2.title": "Ufikiaji wa Haraka, Wakati Wowote",
+      "Tofauti na programu nyingine za telemedicine, eSiri haiulizi kamwe jina lako halisi, picha, au kitambulisho. Mashauriano yako yote — kuanzia kuhifadhi hadi maagizo — yanafanyika bila kufichua wewe ni nani.",
+    "platform.patient2.title": "Bila Aibu, Bila Hukumu",
     "platform.patient2.text":
-      "Ungana na daktari aliyethibitishwa ndani ya dakika — hakuna kusafiri, hakuna kusubiri.",
+      "Afya ya akili, afya ya ngono, dalili za aibu — chochote kile, pata ushauri wa kimatibabu wa kitaalamu bila hofu ya mtu yeyote kugundua.",
     "platform.patient3.title": "Data Yako, Udhibiti Wako",
     "platform.patient3.text":
-      "Mazungumzo yaliyosimbwa mwisho-hadi-mwisho. Unaamua unachoshiriki na unaweza kufuta rekodi zako wakati wowote.",
+      "Mazungumzo yaliyosimbwa mwisho-hadi-mwisho yanayohusishwa na wasifu wako usiojulikana. Unaamua unachoshiriki na unaweza kufuta kila kitu wakati wowote.",
     "platform.doctors.heading": "Kwa Madaktari",
     "platform.doctor1.title": "Panua Ufikiaji wa Wagonjwa",
     "platform.doctor1.text":
@@ -292,27 +292,27 @@ const translations = {
 
     // App Download
     "download.tag": "Anza",
-    "download.title": "Pakua eSiri Leo",
+    "download.title": "Daktari Wako Asiyejulikana Yuko Pakua Moja Tu Mbali",
     "download.subtitle":
-      "Inapatikana kwenye Android. Anza mashauriano yako ya kwanza ndani ya dakika.",
+      "Hakuna jina linalohitajika. Hakuna kitambulisho kinachohitajika. Pakua eSiri na anza mashauriano ya faragha ndani ya dakika.",
     "download.playstore": "Pata kwenye Google Play",
     "download.coming": "iOS Inakuja Hivi Karibuni",
     "download.scan": "Scan kupakua",
 
     // Trust
     "trust.tag": "Kwa Nini Uamini eSiri",
-    "trust.title": "Afya Yako, Kipaumbele Chetu",
+    "trust.title": "Kutokuwa na Utambulisho Haimaanishi Kutokuwa Salama",
     "trust.subtitle":
-      "Tunachukua hatua zote kuhakikisha uzoefu wako wa afya ni salama na wa kitaalamu.",
+      "Utambulisho wako unabaki siri, lakini usalama wako haufi kamwe. Hivi ndivyo tunavyohakikisha huduma bora huku tukilinda faragha yako.",
     "trust.verification.title": "Uthibitishaji wa Madaktari",
     "trust.verification.text":
       "Kila daktari anapitia uthibitishaji wa leseni kabla ya kujiunga.",
     "trust.encryption.title": "Usimbaji wa Mwisho-hadi-Mwisho",
     "trust.encryption.text":
       "Mawasiliano yote kati ya wagonjwa na madaktari yamesimbwa na salama.",
-    "trust.privacy.title": "Faragha ya Data",
+    "trust.privacy.title": "Faragha ya Kweli",
     "trust.privacy.text":
-      "Data yako ya kimatibabu inalindwa na haishirikiwi bila idhini.",
+      "Hatukusanyi jina lako halisi, picha, au kitambulisho cha serikali. Data yako ya kimatibabu inalindwa na haiunganishwi na utambulisho wako halisi.",
     "trust.standards.title": "Viwango vya Kitaalamu",
     "trust.standards.text":
       "Tunadumisha viwango vikali vya ubora na ukaguzi wa mara kwa mara.",
@@ -343,18 +343,18 @@ const translations = {
 
     // FAQ
     "faq.title": "Maswali Yanayoulizwa Mara kwa Mara",
-    "faq.q1": "Ninawezaje kuanza mashauriano?",
+    "faq.q1": "eSiri ni ya siri kiasi gani kweli?",
     "faq.a1":
-      "Pakua app ya eSiri, fungua akaunti, na tazama madaktari wanaopatikana. Chagua daktari, chagua aina ya mashauriano, na uunganishwe.",
+      "Siri kabisa. Huhitaji kutoa jina lako halisi, picha, au kitambulisho chochote cha serikali kutumia eSiri. Unafungua wasifu wa faragha, unachagua daktari, na kuanza mashauriano yako — yote bila kufichua utambulisho wako. Madaktari wanaona tu unachochagua kushiriki.",
     "faq.q2": "Je, madaktari wamethibitishwa?",
     "faq.a2":
       "Ndiyo. Kila daktari kwenye eSiri anapitia utaratibu wa kina wa uthibitishaji ikiwa ni pamoja na uthibitishaji wa leseni.",
     "faq.q3": "Mashauriano yanagharimu kiasi gani?",
     "faq.a3":
       "Ada za mashauriano zinatofautiana kwa daktari na kiwango cha huduma. Unaweza kuona gharama halisi kabla ya kuhifadhi.",
-    "faq.q4": "Je, data yangu ni salama?",
+    "faq.q4": "Je, utambulisho wangu unalindwa kweli?",
     "faq.a4":
-      "Kabisa. Mawasiliano yote yamesimbwa mwisho-hadi-mwisho. Rekodi zako za kimatibabu zimehifadhiwa kwa usalama.",
+      "Ndiyo. Hatukusanyi kamwe jina lako halisi, picha, au kitambulisho cha taifa. Mawasiliano yote yamesimbwa mwisho-hadi-mwisho na yamefungwa kwa wasifu wako usiojulikana. Hata wafanyakazi wa eSiri hawawezi kuona wewe ni nani.",
     "faq.q5": "Naweza kupata maagizo kupitia eSiri?",
     "faq.a5":
       "Ndiyo. Madaktari wanaweza kutoa maagizo ya dijitali wakati wa mashauriano yako.",
@@ -364,7 +364,7 @@ const translations = {
 
     // Footer
     "footer.description":
-      "Kuunganisha wagonjwa na madaktari waliothibitishwa kwa huduma za afya zinazofikiwa, salama, na za kitaalamu kote Tanzania.",
+      "Jukwaa la kwanza la telemedicine lisilo na utambulisho nchini Tanzania. Ona daktari halisi bila kushiriki utambulisho wako.",
     "footer.product": "Bidhaa",
     "footer.company": "Kampuni",
     "footer.legal": "Kisheria",
