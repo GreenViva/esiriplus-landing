@@ -29,16 +29,16 @@ export default function AboutPage() {
                 </p>
                 <p className="leading-relaxed font-medium text-gray-800">
                   Other telemedicine apps moved the clinic online — but they still require your name, your
-                  photo, and your ID. They solved distance, not stigma. eSiri solves both.
+                  photo, and your ID. They solved distance, not stigma. eSIRIPlus solves both.
                 </p>
               </section>
 
               {/* Core differentiator — anonymity */}
               <section>
-                <h2 className="text-2xl font-bold text-brand-navy mt-8 mb-4">How eSiri Is Different</h2>
+                <h2 className="text-2xl font-bold text-brand-navy mt-8 mb-4">How eSIRIPlus Is Different</h2>
                 <div className="bg-brand-teal-light/40 border border-brand-teal/20 rounded-2xl p-6 mb-4">
                   <p className="leading-relaxed text-gray-800 font-medium mb-4">
-                    eSiri is built from the ground up around one principle: you should never have to choose
+                    eSIRIPlus is built from the ground up around one principle: you should never have to choose
                     between your privacy and your health. Patient anonymity is not a feature we added — it is
                     the foundation everything else is built on.
                   </p>
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 <div className="grid gap-4">
                   {[
                     { step: "1", title: "Sign up without identity", text: "Create an account with just a phone number or email. No real name, no photo, no national ID required — ever." },
-                    { step: "2", title: "Browse verified doctors", text: "Every doctor on eSiri is licensed and verified. You see their credentials. They see nothing about you." },
+                    { step: "2", title: "Browse verified doctors", text: "Every doctor on eSIRIPlus is licensed and verified. You see their credentials. They see nothing about you." },
                     { step: "3", title: "Consult on your terms", text: "Chat, voice, or video — choose what you are comfortable with. Share only the medical details relevant to your concern." },
                     { step: "4", title: "Get your prescription", text: "Receive a digital prescription you can take to any pharmacy. The doctor never learns your real identity." },
                   ].map((item) => (
@@ -86,7 +86,7 @@ export default function AboutPage() {
                     <svg className="w-5 h-5 text-brand-teal flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.403 12.652a3 3 0 0 0 0-5.304 3 3 0 0 0-3.75-3.751 3 3 0 0 0-5.305 0 3 3 0 0 0-3.751 3.75 3 3 0 0 0 0 5.305 3 3 0 0 0 3.75 3.751 3 3 0 0 0 5.305 0 3 3 0 0 0 3.751-3.75Zm-2.546-4.46a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clipRule="evenodd" />
                     </svg>
-                    <span><strong>End-to-end encrypted conversations.</strong> Your chats, calls, and records are encrypted so only you and your doctor can access them. Even eSiri staff cannot read them.</span>
+                    <span><strong>End-to-end encrypted conversations.</strong> Your chats, calls, and records are encrypted so only you and your doctor can access them. Even eSIRIPlus staff cannot read them.</span>
                   </li>
                   <li className="flex gap-3">
                     <svg className="w-5 h-5 text-brand-teal flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -101,7 +101,7 @@ export default function AboutPage() {
               <section>
                 <h2 className="text-2xl font-bold text-brand-navy mt-8 mb-4">For Patients and Doctors</h2>
                 <p className="leading-relaxed mb-4">
-                  eSiri creates a unique exchange: patients get the anonymity they need to seek help
+                  eSIRIPlus creates a unique exchange: patients get the anonymity they need to seek help
                   without fear, while doctors get a verified, professional platform to expand their
                   practice beyond clinic walls. Patients are protected. Doctors are empowered. Trust
                   flows in both directions.
@@ -113,7 +113,7 @@ export default function AboutPage() {
                 <p className="leading-relaxed">
                   We envision a future where no one in East Africa avoids medical help because of stigma
                   or fear. Where a teenager can ask about mental health without shame. Where anyone can
-                  discuss sensitive symptoms without worry. eSiri is building that future — one anonymous
+                  discuss sensitive symptoms without worry. eSIRIPlus is building that future — one anonymous
                   consultation at a time.
                 </p>
               </section>

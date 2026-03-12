@@ -4,8 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://esiri.africa"),
   title: {
-    default: "eSiri — Healthcare Consultation, Anywhere in Tanzania",
-    template: "%s | eSiri",
+    default: "eSIRIPlus — Healthcare Consultation, Anywhere in Tanzania",
+    template: "%s | eSIRIPlus",
   },
   description:
     "Connect with verified doctors through secure messaging, voice, or video consultations. Tanzania's trusted telemedicine platform for accessible healthcare.",
@@ -15,20 +15,20 @@ export const metadata: Metadata = {
     "healthcare",
     "doctor consultation",
     "medical app",
-    "eSiri",
+    "eSIRIPlus",
     "online doctor",
     "video consultation",
     "health platform",
     "East Africa",
   ],
-  authors: [{ name: "eSiri Health" }],
-  creator: "eSiri Health",
+  authors: [{ name: "eSIRIPlus Health" }],
+  creator: "eSIRIPlus Health",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://esiri.africa",
-    siteName: "eSiri",
-    title: "eSiri — Healthcare Consultation, Anywhere in Tanzania",
+    siteName: "eSIRIPlus",
+    title: "eSIRIPlus — Healthcare Consultation, Anywhere in Tanzania",
     description:
       "Connect with verified doctors through secure messaging, voice, or video consultations.",
     images: [
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "eSiri - Telemedicine Platform",
+        alt: "eSIRIPlus - Telemedicine Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "eSiri — Healthcare Consultation, Anywhere in Tanzania",
+    title: "eSIRIPlus — Healthcare Consultation, Anywhere in Tanzania",
     description:
       "Connect with verified doctors through secure messaging, voice, or video consultations.",
     images: ["/og-image.png"],

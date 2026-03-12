@@ -89,7 +89,7 @@ export default function Hero({ locale = "en" }: HeroProps) {
                 <div className="bg-white rounded-[2rem] overflow-hidden">
                   {/* Status bar */}
                   <div className="bg-brand-teal px-6 py-3 flex items-center justify-between">
-                    <span className="text-white text-xs font-semibold">eSiri</span>
+                    <span className="text-white text-xs font-semibold">eSIRIPlus</span>
                     <div className="flex items-center gap-1">
                       <div className="w-3 h-3 rounded-full border-2 border-white/50" />
                       <div className="w-6 h-3 rounded-sm border-2 border-white/50" />

@@ -49,7 +49,7 @@ export default function Footer({ locale = "en" }: FooterProps) {
                 </svg>
               </div>
               <span className="text-xl font-bold">
-                e<span className="text-brand-teal">Siri</span>
+                e<span className="text-brand-teal">SIRI</span>Plus
               </span>
             </Link>
             <p className="text-sm text-white/60 leading-relaxed max-w-sm mb-6">
@@ -129,7 +129,7 @@ export default function Footer({ locale = "en" }: FooterProps) {
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8">
           <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} eSiri. {t("footer.rights", locale)}
+            &copy; {new Date().getFullYear()} eSIRIPlus. {t("footer.rights", locale)}
           </p>
           <div className="flex items-center gap-4">
             {/* Social icons — placeholder hrefs */}

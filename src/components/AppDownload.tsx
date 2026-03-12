@@ -70,7 +70,7 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
                 <div className="bg-gray-50 rounded-[1.5rem] overflow-hidden">
                   <div className="bg-brand-teal px-5 py-4">
                     <div className="flex items-center justify-between mb-3">
-                      <span className="text-white text-sm font-bold">eSiri</span>
+                      <span className="text-white text-sm font-bold">eSIRIPlus</span>
                       <div className="w-6 h-6 bg-white/20 rounded-full" />
                     </div>
                     <p className="text-white/90 text-xs">Your health, one tap away</p>

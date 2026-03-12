@@ -32,7 +32,7 @@ export default function Header({ locale = "en", onLocaleChange }: HeaderProps) {
               </svg>
             </div>
             <span className="text-xl font-bold text-brand-navy">
-              e<span className="text-brand-teal">Siri</span>
+              e<span className="text-brand-teal">SIRI</span>Plus
             </span>
           </Link>
 

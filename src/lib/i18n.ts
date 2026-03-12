@@ -13,7 +13,7 @@ const translations = {
     // Hero
     "hero.title": "See a Doctor. Stay Anonymous. No Identity Required.",
     "hero.subtitle":
-      "eSiri is the only telemedicine platform where you get real medical consultations without sharing your name, face, or any personal identity. Just the care you need — completely stigma-free.",
+      "eSIRIPlus is the only telemedicine platform where you get real medical consultations without sharing your name, face, or any personal identity. Just the care you need — completely stigma-free.",
     "hero.cta.download": "Download App",
     "hero.cta.learn": "Learn More",
 
@@ -21,7 +21,7 @@ const translations = {
     "about.tag": "What Makes Us Different",
     "about.title": "The Only Truly Anonymous Telemedicine Platform",
     "about.description":
-      "Other telemedicine apps ask for your name, photo, and ID before you can even talk to a doctor. eSiri doesn't. We built a platform where complete anonymity is the default — so you can seek help for any condition without fear, stigma, or judgment.",
+      "Other telemedicine apps ask for your name, photo, and ID before you can even talk to a doctor. eSIRIPlus doesn't. We built a platform where complete anonymity is the default — so you can seek help for any condition without fear, stigma, or judgment.",
     "about.card1.title": "Zero Identity Required",
     "about.card1.text":
       "No name, no photo, no national ID. Create an account and start a consultation without revealing who you are — ever.",
@@ -60,11 +60,11 @@ const translations = {
     "platform.tag": "Built for Everyone",
     "platform.title": "Anonymous for Patients. Professional for Doctors.",
     "platform.subtitle":
-      "eSiri is the bridge between patients who need privacy and doctors who want to help. Patients stay completely anonymous. Doctors are fully verified. Everyone gets what they need.",
+      "eSIRIPlus is the bridge between patients who need privacy and doctors who want to help. Patients stay completely anonymous. Doctors are fully verified. Everyone gets what they need.",
     "platform.patients.heading": "For Patients",
     "platform.patient1.title": "100% Anonymous — From Start to Finish",
     "platform.patient1.text":
-      "Unlike other telemedicine apps, eSiri never asks for your real name, photo, or ID. Your entire consultation — from booking to prescription — happens without revealing who you are.",
+      "Unlike other telemedicine apps, eSIRIPlus never asks for your real name, photo, or ID. Your entire consultation — from booking to prescription — happens without revealing who you are.",
     "platform.patient2.title": "No Stigma, No Judgment",
     "platform.patient2.text":
       "Mental health, sexual health, embarrassing symptoms — whatever it is, get professional medical advice without fear of anyone finding out.",
@@ -86,13 +86,13 @@ const translations = {
     "download.tag": "Get Started",
     "download.title": "Your Anonymous Doctor Is One Download Away",
     "download.subtitle":
-      "No name required. No ID needed. Download eSiri and start a private consultation in minutes.",
+      "No name required. No ID needed. Download eSIRIPlus and start a private consultation in minutes.",
     "download.playstore": "Get it on Google Play",
     "download.coming": "iOS Coming Soon",
     "download.scan": "Scan to download",
 
     // Trust
-    "trust.tag": "Why Trust eSiri",
+    "trust.tag": "Why Trust eSIRIPlus",
     "trust.title": "Anonymous Doesn't Mean Unsafe",
     "trust.subtitle":
       "Your identity stays hidden, but your safety never does. Here's how we ensure quality care while protecting your anonymity.",
@@ -134,24 +134,24 @@ const translations = {
 
     // FAQ
     "faq.title": "Frequently Asked Questions",
-    "faq.q1": "How anonymous is eSiri really?",
+    "faq.q1": "How anonymous is eSIRIPlus really?",
     "faq.a1":
-      "Completely anonymous. You don't need to provide your real name, photo, or any government ID to use eSiri. You create a private profile, choose a doctor, and start your consultation — all without revealing your identity. Doctors see only what you choose to share.",
+      "Completely anonymous. You don't need to provide your real name, photo, or any government ID to use eSIRIPlus. You create a private profile, choose a doctor, and start your consultation — all without revealing your identity. Doctors see only what you choose to share.",
     "faq.q2": "Are the doctors verified?",
     "faq.a2":
-      "Yes. Every doctor on eSiri undergoes a thorough verification process including license validation, credential checks, and identity verification before they can accept consultations.",
+      "Yes. Every doctor on eSIRIPlus undergoes a thorough verification process including license validation, credential checks, and identity verification before they can accept consultations.",
     "faq.q3": "How much does a consultation cost?",
     "faq.a3":
       "Consultation fees vary by doctor and service tier. You can see the exact cost before booking. We offer affordable rates to make healthcare accessible to everyone.",
     "faq.q4": "Is my identity truly protected?",
     "faq.a4":
-      "Yes. We never collect your real name, photo, or national ID. All communications are encrypted end-to-end and tied to your anonymous profile. Even eSiri staff cannot see who you are.",
-    "faq.q5": "Can I get prescriptions through eSiri?",
+      "Yes. We never collect your real name, photo, or national ID. All communications are encrypted end-to-end and tied to your anonymous profile. Even eSIRIPlus staff cannot see who you are.",
+    "faq.q5": "Can I get prescriptions through eSIRIPlus?",
     "faq.a5":
       "Yes. Doctors can issue digital prescriptions during your consultation, which you can take to any pharmacy.",
     "faq.q6": "What if I need emergency care?",
     "faq.a6":
-      "eSiri is designed for non-emergency consultations. If you have a medical emergency, please call emergency services or visit your nearest hospital immediately.",
+      "eSIRIPlus is designed for non-emergency consultations. If you have a medical emergency, please call emergency services or visit your nearest hospital immediately.",
 
     // Footer
     "footer.description":
@@ -159,7 +159,7 @@ const translations = {
     "footer.product": "Product",
     "footer.company": "Company",
     "footer.legal": "Legal",
-    "footer.about": "About eSiri",
+    "footer.about": "About eSIRIPlus",
     "footer.features": "Features",
     "footer.pricing": "Pricing",
     "footer.download": "Download",
@@ -182,13 +182,13 @@ const translations = {
     "privacy.updated": "Last updated",
     "terms.title": "Terms of Service",
     "terms.updated": "Last updated",
-    "about.page.title": "About eSiri",
+    "about.page.title": "About eSIRIPlus",
     "support.page.title": "Support Center",
 
     // Doctor Apply
-    "apply.title": "Apply to Join eSiri",
+    "apply.title": "Apply to Join eSIRIPlus",
     "apply.subtitle":
-      "Complete this form to begin your onboarding as a healthcare provider on eSiri.",
+      "Complete this form to begin your onboarding as a healthcare provider on eSIRIPlus.",
     "apply.fullname": "Full Name",
     "apply.email": "Email Address",
     "apply.phone": "Phone Number",
@@ -221,7 +221,7 @@ const translations = {
     // Hero
     "hero.title": "Ona Daktari. Baki Bila Kujulikana. Hakuna Utambulisho Unaohitajika.",
     "hero.subtitle":
-      "eSiri ndiyo jukwaa pekee la telemedicine ambapo unapata mashauriano halisi ya kimatibabu bila kushiriki jina lako, uso, au utambulisho wowote. Huduma unayohitaji tu — bila aibu kabisa.",
+      "eSIRIPlus ndiyo jukwaa pekee la telemedicine ambapo unapata mashauriano halisi ya kimatibabu bila kushiriki jina lako, uso, au utambulisho wowote. Huduma unayohitaji tu — bila aibu kabisa.",
     "hero.cta.download": "Pakua App",
     "hero.cta.learn": "Jifunze Zaidi",
 
@@ -229,7 +229,7 @@ const translations = {
     "about.tag": "Kinachotutofautisha",
     "about.title": "Jukwaa Pekee la Telemedicine Lisilo na Utambulisho",
     "about.description":
-      "Programu nyingine za telemedicine zinakuuliza jina lako, picha, na kitambulisho kabla hujazungumza na daktari. eSiri haifanyi hivyo. Tulijenga jukwaa ambapo kutokuwa na utambulisho ni chaguo-msingi — ili uweze kutafuta msaada kwa hali yoyote bila hofu, aibu, au hukumu.",
+      "Programu nyingine za telemedicine zinakuuliza jina lako, picha, na kitambulisho kabla hujazungumza na daktari. eSIRIPlus haifanyi hivyo. Tulijenga jukwaa ambapo kutokuwa na utambulisho ni chaguo-msingi — ili uweze kutafuta msaada kwa hali yoyote bila hofu, aibu, au hukumu.",
     "about.card1.title": "Hakuna Utambulisho Unaohitajika",
     "about.card1.text":
       "Hakuna jina, hakuna picha, hakuna kitambulisho cha taifa. Fungua akaunti na anza mashauriano bila kufichua wewe ni nani — kamwe.",
@@ -268,11 +268,11 @@ const translations = {
     "platform.tag": "Imejengwa kwa Wote",
     "platform.title": "Faragha kwa Wagonjwa. Utaalamu kwa Madaktari.",
     "platform.subtitle":
-      "eSiri ni daraja kati ya wagonjwa wanaohitaji faragha na madaktari wanaotaka kusaidia. Wagonjwa wanabaki bila kujulikana kabisa. Madaktari wamethibitishwa kikamilifu. Kila mtu anapata anachohitaji.",
+      "eSIRIPlus ni daraja kati ya wagonjwa wanaohitaji faragha na madaktari wanaotaka kusaidia. Wagonjwa wanabaki bila kujulikana kabisa. Madaktari wamethibitishwa kikamilifu. Kila mtu anapata anachohitaji.",
     "platform.patients.heading": "Kwa Wagonjwa",
     "platform.patient1.title": "Siri 100% — Kuanzia Mwanzo hadi Mwisho",
     "platform.patient1.text":
-      "Tofauti na programu nyingine za telemedicine, eSiri haiulizi kamwe jina lako halisi, picha, au kitambulisho. Mashauriano yako yote — kuanzia kuhifadhi hadi maagizo — yanafanyika bila kufichua wewe ni nani.",
+      "Tofauti na programu nyingine za telemedicine, eSIRIPlus haiulizi kamwe jina lako halisi, picha, au kitambulisho. Mashauriano yako yote — kuanzia kuhifadhi hadi maagizo — yanafanyika bila kufichua wewe ni nani.",
     "platform.patient2.title": "Bila Aibu, Bila Hukumu",
     "platform.patient2.text":
       "Afya ya akili, afya ya ngono, dalili za aibu — chochote kile, pata ushauri wa kimatibabu wa kitaalamu bila hofu ya mtu yeyote kugundua.",
@@ -294,13 +294,13 @@ const translations = {
     "download.tag": "Anza",
     "download.title": "Daktari Wako Asiyejulikana Yuko Pakua Moja Tu Mbali",
     "download.subtitle":
-      "Hakuna jina linalohitajika. Hakuna kitambulisho kinachohitajika. Pakua eSiri na anza mashauriano ya faragha ndani ya dakika.",
+      "Hakuna jina linalohitajika. Hakuna kitambulisho kinachohitajika. Pakua eSIRIPlus na anza mashauriano ya faragha ndani ya dakika.",
     "download.playstore": "Pata kwenye Google Play",
     "download.coming": "iOS Inakuja Hivi Karibuni",
     "download.scan": "Scan kupakua",
 
     // Trust
-    "trust.tag": "Kwa Nini Uamini eSiri",
+    "trust.tag": "Kwa Nini Uamini eSIRIPlus",
     "trust.title": "Kutokuwa na Utambulisho Haimaanishi Kutokuwa Salama",
     "trust.subtitle":
       "Utambulisho wako unabaki siri, lakini usalama wako haufi kamwe. Hivi ndivyo tunavyohakikisha huduma bora huku tukilinda faragha yako.",
@@ -343,24 +343,24 @@ const translations = {
 
     // FAQ
     "faq.title": "Maswali Yanayoulizwa Mara kwa Mara",
-    "faq.q1": "eSiri ni ya siri kiasi gani kweli?",
+    "faq.q1": "eSIRIPlus ni ya siri kiasi gani kweli?",
     "faq.a1":
-      "Siri kabisa. Huhitaji kutoa jina lako halisi, picha, au kitambulisho chochote cha serikali kutumia eSiri. Unafungua wasifu wa faragha, unachagua daktari, na kuanza mashauriano yako — yote bila kufichua utambulisho wako. Madaktari wanaona tu unachochagua kushiriki.",
+      "Siri kabisa. Huhitaji kutoa jina lako halisi, picha, au kitambulisho chochote cha serikali kutumia eSIRIPlus. Unafungua wasifu wa faragha, unachagua daktari, na kuanza mashauriano yako — yote bila kufichua utambulisho wako. Madaktari wanaona tu unachochagua kushiriki.",
     "faq.q2": "Je, madaktari wamethibitishwa?",
     "faq.a2":
-      "Ndiyo. Kila daktari kwenye eSiri anapitia utaratibu wa kina wa uthibitishaji ikiwa ni pamoja na uthibitishaji wa leseni.",
+      "Ndiyo. Kila daktari kwenye eSIRIPlus anapitia utaratibu wa kina wa uthibitishaji ikiwa ni pamoja na uthibitishaji wa leseni.",
     "faq.q3": "Mashauriano yanagharimu kiasi gani?",
     "faq.a3":
       "Ada za mashauriano zinatofautiana kwa daktari na kiwango cha huduma. Unaweza kuona gharama halisi kabla ya kuhifadhi.",
     "faq.q4": "Je, utambulisho wangu unalindwa kweli?",
     "faq.a4":
-      "Ndiyo. Hatukusanyi kamwe jina lako halisi, picha, au kitambulisho cha taifa. Mawasiliano yote yamesimbwa mwisho-hadi-mwisho na yamefungwa kwa wasifu wako usiojulikana. Hata wafanyakazi wa eSiri hawawezi kuona wewe ni nani.",
-    "faq.q5": "Naweza kupata maagizo kupitia eSiri?",
+      "Ndiyo. Hatukusanyi kamwe jina lako halisi, picha, au kitambulisho cha taifa. Mawasiliano yote yamesimbwa mwisho-hadi-mwisho na yamefungwa kwa wasifu wako usiojulikana. Hata wafanyakazi wa eSIRIPlus hawawezi kuona wewe ni nani.",
+    "faq.q5": "Naweza kupata maagizo kupitia eSIRIPlus?",
     "faq.a5":
       "Ndiyo. Madaktari wanaweza kutoa maagizo ya dijitali wakati wa mashauriano yako.",
     "faq.q6": "Nikifanya nini kama nahitaji huduma ya dharura?",
     "faq.a6":
-      "eSiri imetengenezwa kwa mashauriano yasiyo ya dharura. Kama una dharura ya kimatibabu, tafadhali piga simu huduma za dharura.",
+      "eSIRIPlus imetengenezwa kwa mashauriano yasiyo ya dharura. Kama una dharura ya kimatibabu, tafadhali piga simu huduma za dharura.",
 
     // Footer
     "footer.description":
@@ -368,7 +368,7 @@ const translations = {
     "footer.product": "Bidhaa",
     "footer.company": "Kampuni",
     "footer.legal": "Kisheria",
-    "footer.about": "Kuhusu eSiri",
+    "footer.about": "Kuhusu eSIRIPlus",
     "footer.features": "Huduma",
     "footer.pricing": "Bei",
     "footer.download": "Pakua",
@@ -392,13 +392,13 @@ const translations = {
     "privacy.updated": "Ilisasishwa mwisho",
     "terms.title": "Masharti ya Huduma",
     "terms.updated": "Ilisasishwa mwisho",
-    "about.page.title": "Kuhusu eSiri",
+    "about.page.title": "Kuhusu eSIRIPlus",
     "support.page.title": "Kituo cha Msaada",
 
     // Doctor Apply
-    "apply.title": "Omba Kujiunga na eSiri",
+    "apply.title": "Omba Kujiunga na eSIRIPlus",
     "apply.subtitle":
-      "Jaza fomu hii kuanza mchakato wako wa kujiunga kama mtoa huduma za afya kwenye eSiri.",
+      "Jaza fomu hii kuanza mchakato wako wa kujiunga kama mtoa huduma za afya kwenye eSIRIPlus.",
     "apply.fullname": "Jina Kamili",
     "apply.email": "Anwani ya Barua Pepe",
     "apply.phone": "Nambari ya Simu",

@@ -18,7 +18,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-xl font-bold text-brand-navy mb-3">1. Acceptance of Terms</h2>
                 <p className="leading-relaxed">
-                  By accessing or using the eSiri mobile application and related services (the &quot;Service&quot;),
+                  By accessing or using the eSIRIPlus mobile application and related services (the &quot;Service&quot;),
                   you agree to be bound by these Terms of Service. If you do not agree to these terms, please
                   do not use our Service.
                 </p>
@@ -27,12 +27,12 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-xl font-bold text-brand-navy mb-3">2. Description of Service</h2>
                 <p className="leading-relaxed">
-                  eSiri is a telemedicine platform that connects patients with licensed healthcare providers
+                  eSIRIPlus is a telemedicine platform that connects patients with licensed healthcare providers
                   for remote consultations. Our Service includes messaging, audio calls, video calls,
                   appointment scheduling, digital prescriptions, and related healthcare features.
                 </p>
                 <p className="leading-relaxed mt-3">
-                  <strong>Important:</strong> eSiri is not an emergency medical service. If you are
+                  <strong>Important:</strong> eSIRIPlus is not an emergency medical service. If you are
                   experiencing a medical emergency, please call emergency services or visit your nearest
                   hospital immediately.
                 </p>
@@ -52,13 +52,13 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-xl font-bold text-brand-navy mb-3">4. Healthcare Disclaimer</h2>
                 <p className="leading-relaxed">
-                  The medical advice provided through eSiri is based on the information you provide to
+                  The medical advice provided through eSIRIPlus is based on the information you provide to
                   healthcare providers during consultations. Doctors on our platform exercise independent
-                  medical judgment. eSiri does not practice medicine and does not interfere with the
+                  medical judgment. eSIRIPlus does not practice medicine and does not interfere with the
                   doctor-patient relationship.
                 </p>
                 <p className="leading-relaxed mt-3">
-                  Consultations through eSiri are not a substitute for in-person medical examinations
+                  Consultations through eSIRIPlus are not a substitute for in-person medical examinations
                   when such examinations are medically necessary. Your doctor may recommend that you
                   seek in-person care when appropriate.
                 </p>
@@ -68,7 +68,7 @@ export default function TermsPage() {
                 <h2 className="text-xl font-bold text-brand-navy mb-3">5. Doctor Verification</h2>
                 <p className="leading-relaxed">
                   All healthcare providers on our platform undergo a verification process that includes
-                  license validation and credential checks. However, eSiri does not guarantee the
+                  license validation and credential checks. However, eSIRIPlus does not guarantee the
                   outcome of any consultation or treatment recommended by doctors on the platform.
                 </p>
               </section>
@@ -99,7 +99,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-xl font-bold text-brand-navy mb-3">8. Intellectual Property</h2>
                 <p className="leading-relaxed">
-                  All content, features, and functionality of the eSiri platform are owned by eSiri Health
+                  All content, features, and functionality of the eSIRIPlus platform are owned by eSIRIPlus Health
                   and are protected by copyright, trademark, and other intellectual property laws. You may
                   not reproduce, distribute, or create derivative works without our written permission.
                 </p>
@@ -108,7 +108,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-xl font-bold text-brand-navy mb-3">9. Limitation of Liability</h2>
                 <p className="leading-relaxed">
-                  To the maximum extent permitted by law, eSiri Health shall not be liable for any indirect,
+                  To the maximum extent permitted by law, eSIRIPlus Health shall not be liable for any indirect,
                   incidental, special, consequential, or punitive damages arising out of or related to your
                   use of the Service. Our total liability shall not exceed the amount paid by you for the
                   specific consultation giving rise to the claim.

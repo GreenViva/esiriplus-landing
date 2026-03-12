@@ -18,7 +18,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="text-xl font-bold text-brand-navy mb-3">1. Introduction</h2>
                 <p className="leading-relaxed">
-                  eSiri Health (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting
+                  eSIRIPlus Health (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting
                   your personal information and your right to privacy. This Privacy Policy explains how we
                   collect, use, disclose, and safeguard your information when you use our mobile application
                   and related services.
