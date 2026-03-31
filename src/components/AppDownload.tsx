@@ -1,11 +1,17 @@
+"use client";
+
 import type { Locale } from "@/lib/i18n";
 import { t } from "@/lib/i18n";
+import { useInView } from "@/hooks/useInView";
 
 interface AppDownloadProps {
   locale?: Locale;
 }
 
 export default function AppDownload({ locale = "en" }: AppDownloadProps) {
+  const { ref: textRef, isInView: textVisible } = useInView();
+  const { ref: phoneRef, isInView: phoneVisible } = useInView();
+
   return (
     <section id="download" className="section-padding bg-gradient-to-br from-brand-teal to-brand-teal-dark relative overflow-hidden">
       {/* Background pattern */}
@@ -20,29 +26,36 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
         </svg>
       </div>
 
+      {/* Floating decorative blobs */}
+      <div className="absolute top-10 left-10 w-40 h-40 bg-white/5 rounded-full blur-2xl animate-float-slow" />
+      <div className="absolute bottom-10 right-10 w-60 h-60 bg-white/5 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: '2s' }} />
+
       <div className="section-container relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text */}
-          <div className="text-center lg:text-left">
-            <span className="inline-block px-4 py-1.5 bg-white/20 text-white text-xs font-semibold tracking-wider uppercase rounded-full mb-6">
+          <div
+            ref={textRef}
+            className={`text-center lg:text-left ${textVisible ? "" : "scroll-hidden"}`}
+          >
+            <span className={`inline-block px-4 py-1.5 bg-white/20 text-white text-xs font-semibold tracking-wider uppercase rounded-full mb-6 ${textVisible ? "animate-fade-in-up" : ""}`}>
               {t("download.tag", locale)}
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-5">
+            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-5 ${textVisible ? "animate-fade-in-up delay-1" : ""}`}>
               {t("download.title", locale)}
             </h2>
-            <p className="text-lg text-white/80 mb-8 max-w-md mx-auto lg:mx-0">
+            <p className={`text-lg text-white/80 mb-8 max-w-md mx-auto lg:mx-0 ${textVisible ? "animate-fade-in-up delay-2" : ""}`}>
               {t("download.subtitle", locale)}
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+            <div className={`flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start ${textVisible ? "animate-fade-in-up delay-3" : ""}`}>
               {/* Google Play button */}
               <a
                 href="/eSIRIPlus.apk"
                 download
-                className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl hover:bg-gray-900 transition-colors"
+                className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl hover:bg-gray-900 transition-all duration-300 hover:shadow-xl hover:shadow-black/30 hover:-translate-y-0.5 group"
                 aria-label="Download eSIRIPlus App"
               >
-                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                <svg className="w-7 h-7 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.7.4.7 1.08 0 1.48l-2.302 1.302L15.396 12l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z" />
                 </svg>
                 <div className="text-left">
@@ -65,9 +78,12 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
           </div>
 
           {/* Phone mockup */}
-          <div className="flex justify-center lg:justify-end">
+          <div
+            ref={phoneRef}
+            className={`flex justify-center lg:justify-end ${phoneVisible ? "animate-fade-in-right" : "scroll-hidden"}`}
+          >
             <div className="relative">
-              <div className="w-56 sm:w-64 bg-white rounded-[2rem] p-3 shadow-2xl shadow-black/20">
+              <div className="w-56 sm:w-64 bg-white rounded-[2rem] p-3 shadow-2xl shadow-black/20 animate-float-slow phone-shadow">
                 <div className="bg-gray-50 rounded-[1.5rem] overflow-hidden">
                   <div className="bg-brand-teal px-5 py-4">
                     <div className="flex items-center justify-between mb-3">
@@ -77,7 +93,7 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
                     <p className="text-white/90 text-xs">Your health, one tap away</p>
                   </div>
                   <div className="p-4 space-y-3">
-                    <div className="bg-white rounded-xl p-3 shadow-sm">
+                    <div className="bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow duration-300">
                       <div className="flex items-center gap-2 mb-2">
                         <div className="w-8 h-8 bg-brand-teal/10 rounded-full" />
                         <div className="flex-1">
@@ -86,7 +102,7 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
                         </div>
                       </div>
                     </div>
-                    <div className="bg-white rounded-xl p-3 shadow-sm">
+                    <div className="bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow duration-300">
                       <div className="flex items-center gap-2 mb-2">
                         <div className="w-8 h-8 bg-amber-50 rounded-full" />
                         <div className="flex-1">
@@ -95,7 +111,7 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
                         </div>
                       </div>
                     </div>
-                    <div className="h-10 bg-brand-teal rounded-xl flex items-center justify-center">
+                    <div className="h-10 bg-brand-teal rounded-xl flex items-center justify-center hover:bg-brand-teal-dark transition-colors">
                       <span className="text-white text-xs font-semibold">Book Now</span>
                     </div>
                   </div>
@@ -103,7 +119,7 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
               </div>
 
               {/* QR Code placeholder */}
-              <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+              <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-3 border border-gray-100 animate-float" style={{ animationDelay: '1s' }}>
                 <div className="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center">
                   <svg className="w-8 h-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />

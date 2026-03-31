@@ -23,6 +23,25 @@ const config: Config = {
           "sans-serif",
         ],
       },
+      animation: {
+        "float": "float 3s ease-in-out infinite",
+        "float-slow": "floatSlow 4s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 2.5s ease-in-out infinite",
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        floatSlow: {
+          "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-6px) rotate(1deg)" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { boxShadow: "0 0 0 0 rgba(42, 157, 143, 0.3)" },
+          "50%": { boxShadow: "0 0 20px 8px rgba(42, 157, 143, 0.15)" },
+        },
+      },
     },
   },
   plugins: [],

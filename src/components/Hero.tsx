@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import { t } from "@/lib/i18n";
@@ -8,8 +10,8 @@ interface HeroProps {
 
 export default function Hero({ locale = "en" }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-white via-brand-teal-light/30 to-white pt-28 sm:pt-32 pb-16 sm:pb-24">
-      {/* Subtle background pattern */}
+    <section className="relative overflow-hidden hero-gradient-bg pt-28 sm:pt-32 pb-16 sm:pb-24">
+      {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-[0.03]">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -21,12 +23,16 @@ export default function Hero({ locale = "en" }: HeroProps) {
         </svg>
       </div>
 
+      {/* Decorative blobs */}
+      <div className="absolute top-20 -left-32 w-96 h-96 bg-brand-teal/5 rounded-full blur-3xl animate-float-slow" />
+      <div className="absolute bottom-10 -right-32 w-80 h-80 bg-brand-teal/5 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: '2s' }} />
+
       <div className="section-container relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text content */}
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-teal-light rounded-full mb-6">
-              <svg className="w-4 h-4 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-teal-light rounded-full mb-6 animate-fade-in-down">
+              <svg className="w-4 h-4 text-brand-teal animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
               </svg>
               <span className="text-xs font-semibold text-brand-teal tracking-wide uppercase">
@@ -34,45 +40,45 @@ export default function Hero({ locale = "en" }: HeroProps) {
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-brand-navy leading-[1.1] mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-brand-navy leading-[1.1] mb-6 animate-fade-in-up" style={{ animationDelay: '150ms' }}>
               {t("hero.title", locale)}
             </h1>
 
-            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
               {t("hero.subtitle", locale)}
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-              <Link href="/#download" className="btn-primary px-8 py-4 text-base">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start animate-fade-in-up" style={{ animationDelay: '450ms' }}>
+              <Link href="/#download" className="btn-primary px-8 py-4 text-base group">
+                <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                 </svg>
                 {t("hero.cta.download", locale)}
               </Link>
-              <Link href="/#features" className="btn-secondary px-8 py-4 text-base">
+              <Link href="/#features" className="btn-secondary px-8 py-4 text-base group">
                 {t("hero.cta.learn", locale)}
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                 </svg>
               </Link>
             </div>
 
             {/* Trust badges */}
-            <div className="flex items-center gap-6 mt-10 justify-center lg:justify-start">
-              <div className="flex items-center gap-2 text-sm text-gray-500">
-                <svg className="w-4 h-4 text-brand-teal" fill="currentColor" viewBox="0 0 20 20">
+            <div className="flex items-center gap-6 mt-10 justify-center lg:justify-start animate-fade-in-up" style={{ animationDelay: '600ms' }}>
+              <div className="flex items-center gap-2 text-sm text-gray-500 group cursor-default">
+                <svg className="w-4 h-4 text-brand-teal transition-transform duration-300 group-hover:scale-125" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.403 12.652a3 3 0 0 0 0-5.304 3 3 0 0 0-3.75-3.751 3 3 0 0 0-5.305 0 3 3 0 0 0-3.751 3.75 3 3 0 0 0 0 5.305 3 3 0 0 0 3.75 3.751 3 3 0 0 0 5.305 0 3 3 0 0 0 3.751-3.75Zm-2.546-4.46a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clipRule="evenodd" />
                 </svg>
                 Verified Doctors
               </div>
-              <div className="flex items-center gap-2 text-sm text-gray-500">
-                <svg className="w-4 h-4 text-brand-teal" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex items-center gap-2 text-sm text-gray-500 group cursor-default">
+                <svg className="w-4 h-4 text-brand-teal transition-transform duration-300 group-hover:scale-125" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clipRule="evenodd" />
                 </svg>
                 Encrypted & Secure
               </div>
-              <div className="flex items-center gap-2 text-sm text-gray-500">
-                <svg className="w-4 h-4 text-brand-teal" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex items-center gap-2 text-sm text-gray-500 group cursor-default">
+                <svg className="w-4 h-4 text-brand-teal transition-transform duration-300 group-hover:scale-125" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
                   <path fillRule="evenodd" d="M.664 10.59a1.651 1.651 0 0 1 0-1.186A10.004 10.004 0 0 1 10 3c4.257 0 7.893 2.66 9.336 6.41.147.381.146.804 0 1.186A10.004 10.004 0 0 1 10 17c-4.257 0-7.893-2.66-9.336-6.41ZM14 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" clipRule="evenodd" />
                 </svg>
@@ -82,10 +88,10 @@ export default function Hero({ locale = "en" }: HeroProps) {
           </div>
 
           {/* App mockup illustration */}
-          <div className="relative flex justify-center lg:justify-end">
+          <div className="relative flex justify-center lg:justify-end animate-fade-in-right" style={{ animationDelay: '300ms' }}>
             <div className="relative w-72 sm:w-80">
               {/* Phone frame */}
-              <div className="relative bg-brand-navy rounded-[2.5rem] p-3 shadow-2xl shadow-brand-navy/20">
+              <div className="relative bg-brand-navy rounded-[2.5rem] p-3 shadow-2xl shadow-brand-navy/20 phone-shadow animate-float-slow">
                 <div className="bg-white rounded-[2rem] overflow-hidden">
                   {/* Status bar */}
                   <div className="bg-brand-teal px-6 py-3 flex items-center justify-between">
@@ -99,7 +105,7 @@ export default function Hero({ locale = "en" }: HeroProps) {
                   {/* Mock app content */}
                   <div className="p-5 space-y-4">
                     <div className="text-center py-3">
-                      <div className="w-16 h-16 bg-brand-teal-light rounded-full mx-auto mb-3 flex items-center justify-center">
+                      <div className="w-16 h-16 bg-brand-teal-light rounded-full mx-auto mb-3 flex items-center justify-center animate-pulse-glow">
                         <svg className="w-8 h-8 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                         </svg>
@@ -113,8 +119,12 @@ export default function Hero({ locale = "en" }: HeroProps) {
                       { name: "Dr. Amina K.", spec: "General Practice", rating: "4.9" },
                       { name: "Dr. Joseph M.", spec: "Pediatrics", rating: "4.8" },
                       { name: "Dr. Grace L.", spec: "Internal Medicine", rating: "4.7" },
-                    ].map((doc) => (
-                      <div key={doc.name} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl">
+                    ].map((doc, i) => (
+                      <div
+                        key={doc.name}
+                        className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl transition-all duration-300 hover:bg-brand-teal-light/50 hover:scale-[1.02]"
+                        style={{ animationDelay: `${600 + i * 150}ms` }}
+                      >
                         <div className="w-10 h-10 bg-brand-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
                           <svg className="w-5 h-5 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
@@ -133,7 +143,7 @@ export default function Hero({ locale = "en" }: HeroProps) {
                       </div>
                     ))}
 
-                    <button className="w-full py-2.5 bg-brand-teal text-white text-xs font-semibold rounded-xl">
+                    <button className="w-full py-2.5 bg-brand-teal text-white text-xs font-semibold rounded-xl hover:bg-brand-teal-dark transition-colors">
                       Start Consultation
                     </button>
                   </div>
@@ -141,7 +151,7 @@ export default function Hero({ locale = "en" }: HeroProps) {
               </div>
 
               {/* Floating elements */}
-              <div className="absolute -left-8 top-1/4 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+              <div className="absolute -left-8 top-1/4 bg-white rounded-xl shadow-lg p-3 border border-gray-100 animate-float" style={{ animationDelay: '0.5s' }}>
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -155,7 +165,7 @@ export default function Hero({ locale = "en" }: HeroProps) {
                 </div>
               </div>
 
-              <div className="absolute -right-6 bottom-1/3 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+              <div className="absolute -right-6 bottom-1/3 bg-white rounded-xl shadow-lg p-3 border border-gray-100 animate-float" style={{ animationDelay: '1.5s' }}>
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 bg-brand-teal-light rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-brand-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -1,5 +1,8 @@
+"use client";
+
 import type { Locale } from "@/lib/i18n";
 import { t } from "@/lib/i18n";
+import { useInView } from "@/hooks/useInView";
 
 interface TrustProps {
   locale?: Locale;
@@ -46,30 +49,41 @@ const trustItems = [
 ];
 
 export default function Trust({ locale = "en" }: TrustProps) {
+  const { ref: headerRef, isInView: headerVisible } = useInView();
+  const { ref: gridRef, isInView: gridVisible } = useInView({ threshold: 0.1 });
+
   return (
     <section id="trust" className="section-padding bg-white">
       <div className="section-container">
-        <div className="max-w-3xl mx-auto text-center mb-14">
-          <span className="section-tag">{t("trust.tag", locale)}</span>
-          <h2 className="section-title mt-4 mb-5">
+        <div
+          ref={headerRef}
+          className={`max-w-3xl mx-auto text-center mb-14 ${headerVisible ? "" : "scroll-hidden"}`}
+        >
+          <span className={`section-tag ${headerVisible ? "animate-fade-in-up" : ""}`}>
+            {t("trust.tag", locale)}
+          </span>
+          <h2 className={`section-title mt-4 mb-5 ${headerVisible ? "animate-fade-in-up delay-1" : ""}`}>
             {t("trust.title", locale)}
           </h2>
-          <p className="section-subtitle mx-auto">
+          <p className={`section-subtitle mx-auto ${headerVisible ? "animate-fade-in-up delay-2" : ""}`}>
             {t("trust.subtitle", locale)}
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
-          {trustItems.map((item) => (
+        <div ref={gridRef} className="grid sm:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
+          {trustItems.map((item, i) => (
             <div
               key={item.titleKey}
-              className="flex gap-5 p-6 rounded-2xl border border-gray-100 hover:border-brand-teal/20 hover:shadow-sm transition-all duration-200"
+              className={`flex gap-5 p-6 rounded-2xl border border-gray-100 hover:border-brand-teal/20 hover:shadow-lg hover:-translate-y-1 transition-all duration-500 group ${
+                gridVisible ? "animate-fade-in-up" : "scroll-hidden"
+              }`}
+              style={{ animationDelay: `${i * 120}ms` }}
             >
-              <div className="w-14 h-14 bg-brand-teal-light text-brand-teal rounded-2xl flex items-center justify-center flex-shrink-0">
+              <div className="w-14 h-14 bg-brand-teal-light text-brand-teal rounded-2xl flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-brand-teal group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
                 {item.icon}
               </div>
               <div>
-                <h3 className="font-bold text-brand-navy mb-2">
+                <h3 className="font-bold text-brand-navy mb-2 group-hover:text-brand-teal transition-colors duration-300">
                   {t(item.titleKey, locale)}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">

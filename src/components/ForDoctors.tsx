@@ -1,5 +1,8 @@
+"use client";
+
 import type { Locale } from "@/lib/i18n";
 import { t } from "@/lib/i18n";
+import { useInView } from "@/hooks/useInView";
 
 interface ForDoctorsProps {
   locale?: Locale;
@@ -66,22 +69,34 @@ const doctorBenefits = [
 ];
 
 export default function ForDoctors({ locale = "en" }: ForDoctorsProps) {
+  const { ref: headerRef, isInView: headerVisible } = useInView();
+  const { ref: leftRef, isInView: leftVisible } = useInView({ threshold: 0.1 });
+  const { ref: rightRef, isInView: rightVisible } = useInView({ threshold: 0.1 });
+
   return (
     <section id="for-doctors" className="section-padding bg-white">
       <div className="section-container">
-        <div className="max-w-3xl mx-auto text-center mb-14">
-          <span className="section-tag">{t("platform.tag", locale)}</span>
-          <h2 className="section-title mt-4 mb-5">
+        <div
+          ref={headerRef}
+          className={`max-w-3xl mx-auto text-center mb-14 ${headerVisible ? "" : "scroll-hidden"}`}
+        >
+          <span className={`section-tag ${headerVisible ? "animate-fade-in-up" : ""}`}>
+            {t("platform.tag", locale)}
+          </span>
+          <h2 className={`section-title mt-4 mb-5 ${headerVisible ? "animate-fade-in-up delay-1" : ""}`}>
             {t("platform.title", locale)}
           </h2>
-          <p className="section-subtitle mx-auto">
+          <p className={`section-subtitle mx-auto ${headerVisible ? "animate-fade-in-up delay-2" : ""}`}>
             {t("platform.subtitle", locale)}
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-14">
           {/* For Patients */}
-          <div className="card !p-8">
+          <div
+            ref={leftRef}
+            className={`card card-hover-border !p-8 ${leftVisible ? "animate-fade-in-left" : "scroll-hidden"}`}
+          >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -91,9 +106,13 @@ export default function ForDoctors({ locale = "en" }: ForDoctorsProps) {
               <h3 className="text-xl font-bold text-brand-navy">{t("platform.patients.heading", locale)}</h3>
             </div>
             <div className="space-y-5">
-              {patientBenefits.map((b) => (
-                <div key={b.titleKey} className="flex gap-4">
-                  <div className="w-10 h-10 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
+              {patientBenefits.map((b, i) => (
+                <div
+                  key={b.titleKey}
+                  className={`flex gap-4 group/item ${leftVisible ? "animate-fade-in-up" : "scroll-hidden"}`}
+                  style={{ animationDelay: `${300 + i * 150}ms` }}
+                >
+                  <div className="w-10 h-10 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-blue-600 group-hover/item:text-white">
                     {b.icon}
                   </div>
                   <div>
@@ -110,7 +129,10 @@ export default function ForDoctors({ locale = "en" }: ForDoctorsProps) {
           </div>
 
           {/* For Doctors */}
-          <div className="card !p-8">
+          <div
+            ref={rightRef}
+            className={`card card-hover-border !p-8 ${rightVisible ? "animate-fade-in-right" : "scroll-hidden"}`}
+          >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-brand-teal-light text-brand-teal rounded-2xl flex items-center justify-center">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -120,9 +142,13 @@ export default function ForDoctors({ locale = "en" }: ForDoctorsProps) {
               <h3 className="text-xl font-bold text-brand-navy">{t("platform.doctors.heading", locale)}</h3>
             </div>
             <div className="space-y-5">
-              {doctorBenefits.map((b) => (
-                <div key={b.titleKey} className="flex gap-4">
-                  <div className="w-10 h-10 bg-brand-teal-light text-brand-teal rounded-xl flex items-center justify-center flex-shrink-0">
+              {doctorBenefits.map((b, i) => (
+                <div
+                  key={b.titleKey}
+                  className={`flex gap-4 group/item ${rightVisible ? "animate-fade-in-up" : "scroll-hidden"}`}
+                  style={{ animationDelay: `${300 + i * 150}ms` }}
+                >
+                  <div className="w-10 h-10 bg-brand-teal-light text-brand-teal rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover/item:scale-110 group-hover/item:bg-brand-teal group-hover/item:text-white">
                     {b.icon}
                   </div>
                   <div>
