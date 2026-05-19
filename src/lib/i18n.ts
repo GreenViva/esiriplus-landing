@@ -184,6 +184,11 @@ const translations = {
     "terms.updated": "Last updated",
     "about.page.title": "About eSIRIPlus",
     "support.page.title": "Support Center",
+    "coming.page.title": "Coming Soon",
+    "coming.page.subtitle": "Our Android app is almost ready.",
+    "coming.page.body":
+      "We are putting the finishing touches on eSIRIPlus for Android. Sign up for our newsletter or follow us to get notified the moment it launches.",
+    "coming.page.cta": "Back to Home",
 
     // Doctor Apply
     "apply.title": "Apply to Join eSIRIPlus",
@@ -394,6 +399,11 @@ const translations = {
     "terms.updated": "Ilisasishwa mwisho",
     "about.page.title": "Kuhusu eSIRIPlus",
     "support.page.title": "Kituo cha Msaada",
+    "coming.page.title": "Inakuja Hivi Karibuni",
+    "coming.page.subtitle": "App yetu ya Android iko karibu kuwa tayari.",
+    "coming.page.body":
+      "Tunamalizia kazi ya mwisho ya eSIRIPlus kwa Android. Jiandikishe kwenye jarida letu au tufuate ili kupata taarifa mara tu itakapozinduliwa.",
+    "coming.page.cta": "Rudi Nyumbani",
 
     // Doctor Apply
     "apply.title": "Omba Kujiunga na eSIRIPlus",
