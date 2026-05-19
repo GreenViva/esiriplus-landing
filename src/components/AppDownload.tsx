@@ -48,21 +48,19 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
             </p>
 
             <div className={`flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start ${textVisible ? "animate-fade-in-up delay-3" : ""}`}>
-              {/* Google Play button */}
-              <a
-                href="/eSIRIPlus.apk"
-                download
-                className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl hover:bg-gray-900 transition-all duration-300 hover:shadow-xl hover:shadow-black/30 hover:-translate-y-0.5 group"
-                aria-label="Download eSIRIPlus App"
+              {/* Android APK (coming soon) */}
+              <div
+                className="inline-flex items-center gap-3 bg-white/10 text-white/60 px-6 py-3.5 rounded-xl cursor-not-allowed border border-white/20"
+                aria-label="Android APK Coming Soon"
               >
-                <svg className="w-7 h-7 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor">
+                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.7.4.7 1.08 0 1.48l-2.302 1.302L15.396 12l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z" />
                 </svg>
                 <div className="text-left">
-                  <p className="text-[10px] leading-none opacity-80">DOWNLOAD</p>
+                  <p className="text-[10px] leading-none opacity-60">COMING SOON</p>
                   <p className="text-base font-semibold leading-tight mt-0.5">Android APK</p>
                 </div>
-              </a>
+              </div>
 
               {/* App Store (coming soon) */}
               <div className="inline-flex items-center gap-3 bg-white/10 text-white/60 px-6 py-3.5 rounded-xl cursor-not-allowed border border-white/20">
