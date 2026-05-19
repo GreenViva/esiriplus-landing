@@ -185,9 +185,12 @@ const translations = {
     "about.page.title": "About eSIRIPlus",
     "support.page.title": "Support Center",
     "coming.page.title": "Coming Soon",
-    "coming.page.subtitle": "Our Android app is almost ready.",
-    "coming.page.body":
+    "coming.page.subtitle.android": "Our Android app is almost ready.",
+    "coming.page.body.android":
       "We are putting the finishing touches on eSIRIPlus for Android. Sign up for our newsletter or follow us to get notified the moment it launches.",
+    "coming.page.subtitle.ios": "Our iOS app is almost ready.",
+    "coming.page.body.ios":
+      "We are putting the finishing touches on eSIRIPlus for iOS. Sign up for our newsletter or follow us to get notified the moment it launches on the App Store.",
     "coming.page.cta": "Back to Home",
 
     // Doctor Apply
@@ -400,9 +403,12 @@ const translations = {
     "about.page.title": "Kuhusu eSIRIPlus",
     "support.page.title": "Kituo cha Msaada",
     "coming.page.title": "Inakuja Hivi Karibuni",
-    "coming.page.subtitle": "App yetu ya Android iko karibu kuwa tayari.",
-    "coming.page.body":
+    "coming.page.subtitle.android": "App yetu ya Android iko karibu kuwa tayari.",
+    "coming.page.body.android":
       "Tunamalizia kazi ya mwisho ya eSIRIPlus kwa Android. Jiandikishe kwenye jarida letu au tufuate ili kupata taarifa mara tu itakapozinduliwa.",
+    "coming.page.subtitle.ios": "App yetu ya iOS iko karibu kuwa tayari.",
+    "coming.page.body.ios":
+      "Tunamalizia kazi ya mwisho ya eSIRIPlus kwa iOS. Jiandikishe kwenye jarida letu au tufuate ili kupata taarifa mara tu itakapozinduliwa kwenye App Store.",
     "coming.page.cta": "Rudi Nyumbani",
 
     // Doctor Apply

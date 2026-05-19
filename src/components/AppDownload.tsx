@@ -66,7 +66,7 @@ export default function AppDownload({ locale = "en" }: AppDownloadProps) {
 
               {/* App Store (coming soon) */}
               <Link
-                href="/coming-soon"
+                href="/coming-soon?platform=ios"
                 className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl hover:bg-gray-900 transition-all duration-300 hover:shadow-xl hover:shadow-black/30 hover:-translate-y-0.5 group"
                 aria-label="App Store Coming Soon"
               >
