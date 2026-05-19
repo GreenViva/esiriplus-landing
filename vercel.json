@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/eSIRIPlus.apk",
+      "destination": "/coming-soon/",
+      "permanent": false
+    }
+  ]
+}
