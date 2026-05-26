@@ -148,7 +148,7 @@ export default function TermsPage() {
                   For questions about these Terms of Service, contact us at:
                 </p>
                 <p className="mt-2">
-                  <strong>Email:</strong> legal@esiri.africa<br />
+                  <strong>Email:</strong> support@esiri.africa<br />
                   <strong>Address:</strong> Dar es Salaam, Tanzania
                 </p>
               </section>

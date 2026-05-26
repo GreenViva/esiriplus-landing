@@ -56,6 +56,25 @@ const translations = {
     "features.records.text":
       "Your consultation history and prescriptions, securely stored under your anonymous profile — accessible only to you.",
 
+    // How It Works
+    "howitworks.tag": "How It Works",
+    "howitworks.title": "Anonymous Care in 4 Simple Steps",
+    "howitworks.subtitle":
+      "From download to diagnosis — no name, no ID, no waiting rooms. Here's how easy it is to see a doctor entirely on your terms.",
+    "howitworks.step1.title": "Download & Open",
+    "howitworks.step1.text":
+      "Get eSIRIPlus from the app store and open it. No personal details needed to get started.",
+    "howitworks.step2.title": "Create an Anonymous Profile",
+    "howitworks.step2.text":
+      "Pick a private codename instead of your real name. No photo, no national ID — ever.",
+    "howitworks.step3.title": "Choose a Verified Doctor",
+    "howitworks.step3.text":
+      "Browse licensed, vetted doctors and pick the one that fits your needs and your schedule.",
+    "howitworks.step4.title": "Consult in Private",
+    "howitworks.step4.text":
+      "Chat, call, or video with your doctor and get a digital prescription — all without revealing who you are.",
+    "howitworks.cta": "Start Anonymously",
+
     // Platform — for both patients and doctors
     "platform.tag": "Built for Everyone",
     "platform.title": "Anonymous for Patients. Professional for Doctors.",
@@ -123,7 +142,7 @@ const translations = {
     "contact.email": "Email Us",
     "contact.email.address": "support@esiri.africa",
     "contact.phone": "Call Us",
-    "contact.phone.number": "+255 663 582 995",
+    "contact.phone.number": "+255 663 582 994",
     "contact.hours": "Business Hours",
     "contact.hours.text": "Mon - Fri, 8:00 AM - 6:00 PM EAT",
     "contact.form.name": "Your Name",
@@ -169,6 +188,10 @@ const translations = {
     "footer.blog": "Blog",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms of Service",
+    "footer.userterms": "User Terms & Policy",
+    "footer.refund": "Refund Policy",
+    "footer.verification": "Doctor Verification Policy",
+    "footer.doctorterms": "Doctor Terms & Agreement",
     "footer.data": "Data Protection",
     "footer.cookies": "Cookie Policy",
     "footer.rights": "All rights reserved.",
@@ -182,6 +205,16 @@ const translations = {
     "privacy.updated": "Last updated",
     "terms.title": "Terms of Service",
     "terms.updated": "Last updated",
+    "refund.title": "Refund Policy",
+    "refund.updated": "Last updated",
+    "verification.title": "Doctor Verification Policy",
+    "verification.updated": "Last updated",
+    "dataprotection.title": "Data Protection Policy",
+    "dataprotection.updated": "Last updated",
+    "doctorterms.title": "Doctor Terms & Agreement",
+    "doctorterms.updated": "Last updated",
+    "userterms.title": "User Terms & Policy",
+    "userterms.updated": "Last updated",
     "about.page.title": "About eSIRIPlus",
     "support.page.title": "Support Center",
     "coming.page.title": "Coming Soon",
@@ -272,6 +305,25 @@ const translations = {
     "features.records.text":
       "Historia yako ya mashauriano na maagizo, yamehifadhiwa kwa usalama chini ya wasifu wako usiojulikana — yanapatikana kwako tu.",
 
+    // How It Works
+    "howitworks.tag": "Jinsi Inavyofanya Kazi",
+    "howitworks.title": "Huduma ya Siri kwa Hatua 4 Rahisi",
+    "howitworks.subtitle":
+      "Kuanzia kupakua hadi utambuzi wa ugonjwa — bila jina, bila kitambulisho, bila vyumba vya kusubiri. Hivi ndivyo ilivyo rahisi kuona daktari kwa masharti yako kabisa.",
+    "howitworks.step1.title": "Pakua na Fungua",
+    "howitworks.step1.text":
+      "Pata eSIRIPlus kwenye duka la programu na uifungue. Hakuna taarifa binafsi zinazohitajika kuanza.",
+    "howitworks.step2.title": "Fungua Wasifu Usiojulikana",
+    "howitworks.step2.text":
+      "Chagua jina la siri badala ya jina lako halisi. Hakuna picha, hakuna kitambulisho cha taifa — kamwe.",
+    "howitworks.step3.title": "Chagua Daktari Aliyethibitishwa",
+    "howitworks.step3.text":
+      "Pitia madaktari wenye leseni waliothibitishwa na uchague anayekufaa kulingana na mahitaji na ratiba yako.",
+    "howitworks.step4.title": "Shauriana kwa Faragha",
+    "howitworks.step4.text":
+      "Andika ujumbe, piga simu, au fanya video na daktari wako na upate agizo la dijitali — yote bila kufichua wewe ni nani.",
+    "howitworks.cta": "Anza Bila Kujulikana",
+
     // Platform — for both patients and doctors
     "platform.tag": "Imejengwa kwa Wote",
     "platform.title": "Faragha kwa Wagonjwa. Utaalamu kwa Madaktari.",
@@ -339,7 +391,7 @@ const translations = {
     "contact.email": "Tuma Barua Pepe",
     "contact.email.address": "support@esiri.africa",
     "contact.phone": "Piga Simu",
-    "contact.phone.number": "+255 663 582 995",
+    "contact.phone.number": "+255 663 582 994",
     "contact.hours": "Saa za Kazi",
     "contact.hours.text": "Jumatatu - Ijumaa, 8:00 AM - 6:00 PM EAT",
     "contact.form.name": "Jina Lako",
@@ -386,6 +438,10 @@ const translations = {
     "footer.blog": "Blogu",
     "footer.privacy": "Sera ya Faragha",
     "footer.terms": "Masharti ya Huduma",
+    "footer.userterms": "Masharti ya Mtumiaji",
+    "footer.refund": "Sera ya Marejesho",
+    "footer.verification": "Sera ya Uthibitishaji wa Madaktari",
+    "footer.doctorterms": "Masharti ya Madaktari",
     "footer.data": "Ulinzi wa Data",
     "footer.cookies": "Sera ya Kuki",
     "footer.rights": "Haki zote zimehifadhiwa.",
@@ -400,6 +456,16 @@ const translations = {
     "privacy.updated": "Ilisasishwa mwisho",
     "terms.title": "Masharti ya Huduma",
     "terms.updated": "Ilisasishwa mwisho",
+    "refund.title": "Sera ya Marejesho",
+    "refund.updated": "Ilisasishwa mwisho",
+    "verification.title": "Sera ya Uthibitishaji wa Madaktari",
+    "verification.updated": "Ilisasishwa mwisho",
+    "dataprotection.title": "Sera ya Ulinzi wa Data",
+    "dataprotection.updated": "Ilisasishwa mwisho",
+    "doctorterms.title": "Masharti na Makubaliano ya Madaktari",
+    "doctorterms.updated": "Ilisasishwa mwisho",
+    "userterms.title": "Masharti na Sera ya Mtumiaji",
+    "userterms.updated": "Ilisasishwa mwisho",
     "about.page.title": "Kuhusu eSIRIPlus",
     "support.page.title": "Kituo cha Msaada",
     "coming.page.title": "Inakuja Hivi Karibuni",

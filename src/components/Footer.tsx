@@ -35,6 +35,11 @@ export default function Footer({ locale = "en" }: FooterProps) {
   const legalLinks = [
     { href: "/privacy/", label: t("footer.privacy", locale) },
     { href: "/terms/", label: t("footer.terms", locale) },
+    { href: "/user-terms/", label: t("footer.userterms", locale) },
+    { href: "/refund/", label: t("footer.refund", locale) },
+    { href: "/doctor-verification/", label: t("footer.verification", locale) },
+    { href: "/doctor-terms/", label: t("footer.doctorterms", locale) },
+    { href: "/data-protection/", label: t("footer.data", locale) },
   ];
 
   return (

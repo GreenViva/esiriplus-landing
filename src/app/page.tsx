@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Features from "@/components/Features";
+import HowItWorks from "@/components/HowItWorks";
 import Stats from "@/components/Stats";
 import ForDoctors from "@/components/ForDoctors";
 import Trust from "@/components/Trust";
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Hero locale={locale} />
         <About locale={locale} />
         <Stats locale={locale} />
+        <HowItWorks locale={locale} />
         <Features locale={locale} />
         <ForDoctors locale={locale} />
         <Trust locale={locale} />
