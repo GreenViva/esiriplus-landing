@@ -271,7 +271,7 @@ export default function DataProtectionPage() {
                 </div>
                 <p className="leading-relaxed mt-3">
                   When you request deletion, your account enters a recovery grace period
-                  (up to 90 days), after which your data is securely and permanently purged
+                  (30 days), after which your data is securely and permanently purged
                   — subject to the legal retention periods above. Data that reaches the end
                   of its retention period is likewise securely and permanently deleted.
                 </p>

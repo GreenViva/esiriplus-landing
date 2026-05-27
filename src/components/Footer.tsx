@@ -40,6 +40,7 @@ export default function Footer({ locale = "en" }: FooterProps) {
     { href: "/doctor-verification/", label: t("footer.verification", locale) },
     { href: "/doctor-terms/", label: t("footer.doctorterms", locale) },
     { href: "/data-protection/", label: t("footer.data", locale) },
+    { href: "/delete-account/", label: t("footer.deleteaccount", locale) },
   ];
 
   return (
